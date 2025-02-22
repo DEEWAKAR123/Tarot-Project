@@ -1,40 +1,217 @@
+/* General Styles */
 body {
-    background-image: url("images/background.jpg");
-    background-size: cover;
+    background: url("images/bg-image.jpg") center/cover no-repeat, #071739;
+    /* color: #A4B5C4; */
+    font-family: "Garamond", serif;
     text-align: center;
-}
-
-header {
-    padding: 20px 0;
-    margin-top: 50px;
-}
-
-.header-button {
-    background-color: #FFCC99; 
-    color: white;              /* White text */
-    width: 160px;              /* Square width */
-    height: 50px;             /* Square height */
-    border: none;              /* Remove border */
-    font-size: 16px;           /* Adjust font size */
-    cursor: pointer;          /* Change cursor on hover */
-}
-
-#logo {
-    max-width: 120px;
-}
-
-.main-heading {
-    font-family: "Edwardian Script ITC", cursive;
-    font-weight: normal; 
-    font-style: normal;
-    color: #4d4d4d;
-    font-size: 125px;
-    margin: 0;
-}
-
-.grid {
-    padding: 50px 100px;
-    display: grid;
-    grid-template-rows: repeat(4, auto);
-    grid-template-columns: repeat(2, auto);
-}
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Hero Section */
+  #hero {
+    padding: 50px 10px;
+  }
+  
+  .hero-title {
+    font-family: "Uncial Antiqua", cursive;
+    font-size: 65px;
+    color: #28293d;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 22px;
+    color: #2e3061;
+  }
+  
+  .hero-text {
+    font-size: 18px;
+    color: #4d4f93;
+  }
+  
+  /* Logo Styling */
+  #logo {
+    max-width: 150px;
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.3));
+  }
+  
+  /* CTA Button */
+  .cta-button {
+    background-color: #b2a6be;
+    color: #071739;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s;
+    border: none;
+  }
+  
+  .cta-button:hover {
+    background-color: #5f75a7;
+    transform: scale(1.1);
+  }
+  
+  /* Service Cards */
+  .service-card {
+    background-color: #555184;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Service Card Title */
+  .service-card h3 {
+    color: #e6ca28;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Service Card Description */
+  .service-card p {
+    color: #e9e9f1;
+    font-size: 14px;
+    flex-grow: 1;
+  }
+  
+  .service-card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Service Card Backgrounds */
+  .service-card.one {
+    background: url("images/tarotcardreading.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .service-card.two {
+    background: url("images/psychic-guidance.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .service-card.three {
+    background: url("images/numerology.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .service-card.four {
+    background: url("images/astrology.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .service-card.five {
+    background: url("images/vastu-shastra.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .service-card.six {
+    background: url("images/logo-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .service-card.seven {
+    background: url("images/past-life.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .service-card.eight {
+    background: url("images/reiki.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Service Card Content */
+  .service-card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    color: white;
+    filter: brightness(1.2) contrast(1.5);
+  }
+  
+  .service-card-content h1 {
+    font-size: 22px;
+    font-weight: 800;
+    text-shadow: 3px 3px 12px rgba(255, 255, 255, 0.3),
+      2px 2px 8px rgba(0, 0, 0, 0.9);
+  }
+  
+  .service-card-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Service Card Overlay */
+  .service-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding-top: 60px;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  
