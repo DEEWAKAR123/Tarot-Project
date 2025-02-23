@@ -1,217 +1,150 @@
 /* General Styles */
 body {
-    background: url("images/bg-image.jpg") center/cover no-repeat, #071739;
-    /* color: #A4B5C4; */
-    font-family: "Garamond", serif;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  /* Hero Section */
-  #hero {
-    padding: 50px 10px;
-  }
-  
-  .hero-title {
-    font-family: "Uncial Antiqua", cursive;
-    font-size: 65px;
-    color: #28293d;
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
-    margin-bottom: 10px;
-  }
-  
-  .hero-subtitle {
-    font-size: 22px;
-    color: #2e3061;
-  }
-  
-  .hero-text {
-    font-size: 18px;
-    color: #4d4f93;
-  }
-  
-  /* Logo Styling */
-  #logo {
-    max-width: 150px;
-    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.3));
-  }
-  
-  /* CTA Button */
-  .cta-button {
-    background-color: #b2a6be;
-    color: #071739;
-    padding: 12px 24px;
-    border-radius: 30px;
-    font-size: 18px;
-    font-weight: bold;
-    transition: all 0.3s;
-    border: none;
-  }
-  
-  .cta-button:hover {
-    background-color: #5f75a7;
-    transform: scale(1.1);
-  }
-  
-  /* Service Cards */
-  .service-card {
-    background-color: #555184;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
-    text-align: center;
-    transition: 0.3s ease-in-out;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 280px;
-    height: 200px;
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  /* Service Card Title */
-  .service-card h3 {
-    color: #e6ca28;
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  /* Service Card Description */
-  .service-card p {
-    color: #e9e9f1;
-    font-size: 14px;
-    flex-grow: 1;
-  }
-  
-  .service-card-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 40px 0;
-  }
-  
-  .service-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
-  }
-  
-  /* Service Card Backgrounds */
-  .service-card.one {
-    background: url("images/tarotcardreading.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .service-card.two {
-    background: url("images/psychic-guidance.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .service-card.three {
-    background: url("images/numerology.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .service-card.four {
-    background: url("images/astrology.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .service-card.five {
-    background: url("images/vastu-shastra.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .service-card.six {
-    background: url("images/logo-design.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .service-card.seven {
-    background: url("images/past-life.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .service-card.eight {
-    background: url("images/reiki.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  /* Service Card Content */
-  .service-card-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    text-align: center;
-    color: white;
-    filter: brightness(1.2) contrast(1.5);
-  }
-  
-  .service-card-content h1 {
-    font-size: 22px;
-    font-weight: 800;
-    text-shadow: 3px 3px 12px rgba(255, 255, 255, 0.3),
-      2px 2px 8px rgba(0, 0, 0, 0.9);
-  }
-  
-  .service-card-content p {
-    font-size: 15px;
-    line-height: 1.6;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  }
-  
-  /* Service Card Overlay */
-  .service-card::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: 1;
-  }
-  
-  /* Contact Section */
-  #contact {
-    padding-top: 60px;
-  }
-  
-  /* Footer */
-  footer {
-    padding: 20px;
-    margin-top: 30px;
-    font-size: 14px;
-  }
-  
+  background: url("images/bg-image.jpg") center/cover no-repeat, #071739;
+  font-family: "Garamond", serif;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Hero Section */
+#hero {
+  padding: 3rem 1rem;
+}
+
+.hero-title {
+  font-family: "Uncial Antiqua", cursive;
+  font-size: 6rem;
+  color: #28293d;
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.7);
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 2rem;
+  color: #2e3061;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  color: #4d4f93;
+}
+
+/* Logo Styling */
+#logo {
+  max-width: 9rem;
+  filter: drop-shadow(0 0 0.6rem rgba(255, 255, 255, 0.3));
+}
+
+/* CTA Button */
+.cta-button {
+  background-color: #b2a6be;
+  color: #071739;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s;
+  border: none;
+}
+
+.cta-button:hover {
+  background-color: #5f75a7;
+  transform: scale(1.1);
+}
+
+/* Service Cards */
+.service-card {
+  background-color: #555184;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  margin: 0.625rem;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  width: 17rem;
+  height: 15rem;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.service-card.one { background: url("images/tarotcardreading.jpg") center/cover no-repeat; }
+.service-card.two { background: url("images/psychic-guidance.jpg") center/cover no-repeat; }
+.service-card.three { background: url("images/numerology.jpg") center/cover no-repeat; }
+.service-card.four { background: url("images/astrology.jpg") center/cover no-repeat; }
+.service-card.five { background: url("images/vastu-shastra.jpeg") center/cover no-repeat; }
+.service-card.six { background: url("images/logo-design.jpg") center/cover no-repeat; }
+.service-card.seven { background: url("images/past-life.jpg") center/cover no-repeat; }
+.service-card.eight { background: url("images/reiki.jpg") center/cover no-repeat; }
+
+.service-card h3 {
+  color: #e6ca28;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.service-card p {
+  color: #e9e9f1;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+.service-card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 2.5rem 0;
+}
+
+.service-card:hover {
+  transform: translateY(-0.625rem);
+  box-shadow: 0 0.9375rem 1.5625rem rgba(0, 0, 0, 0.3);
+}
+
+/* Service Card Content */
+.service-card-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: white;
+  filter: brightness(1.2) contrast(1.5);
+}
+
+.service-card-content h1 {
+  font-size: 1.375rem;
+  font-weight: 800;
+  text-shadow: 0.1875rem 0.1875rem 0.75rem rgba(255, 255, 255, 0.3),
+    0.125rem 0.125rem 0.5rem rgba(0, 0, 0, 0.9);
+}
+
+.service-card-content p {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  text-shadow: 0.125rem 0.125rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+/* Contact Section */
+#contact {
+  padding-top: 3.75rem;
+}
+
+/* Footer */
+footer {
+  padding: 1.25rem;
+  margin-top: 1.875rem;
+  font-size: 0.875rem;
+}
