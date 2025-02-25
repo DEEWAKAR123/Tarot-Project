@@ -54,6 +54,19 @@ body {
   transform: scale(1.1);
 }
 
+/* Video */
+#video-section {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+#video-section video {
+  width: 80%;
+  max-width: 50rem;
+  border-radius: 0.6rem;
+  box-shadow: 0px 0.25rem 0.625rem rgba(0, 0, 0, 0.3);
+}
+
 /* Service Cards */
 .service-card {
   background-color: #555184;
@@ -135,6 +148,45 @@ body {
   font-size: 0.9375rem;
   line-height: 1.6;
   text-shadow: 0.125rem 0.125rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 70rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.hero-image {
+  flex: 1;
+  max-width: 25rem;
+}
+.hero-image img {
+  width: 80%;
+  height: auto
+}
+.hero-content {
+  flex: 1;
+  max-width: 25rem;
+  text-align: justify;
+}
+.hero-text {
+  font-size: 1.5rem
+}
+
+/* Responsive Fix for Smaller Screens */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image,
+  .hero-content {
+    max-width: 100%;
+  }
 }
 
 /* Contact Section */
