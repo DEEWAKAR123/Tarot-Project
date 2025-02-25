@@ -67,6 +67,16 @@ body {
   box-shadow: 0px 0.25rem 0.625rem rgba(0, 0, 0, 0.3);
 }
 
+/* Service Offered Title */
+
+.service-header {
+  font-family: "Uncial Antiqua", cursive;
+  font-size: 3rem;
+  color: #28293d;
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.7);
+  margin-bottom: 1.5rem;
+}
+
 /* Service Cards */
 .service-card {
   background-color: #555184;
@@ -89,13 +99,13 @@ body {
   background-repeat: no-repeat;
 }
 
-.service-card.one { background: url("images/tarotcardreading.jpg") center/cover no-repeat; }
+.service-card.one { background: url("images/TarotReading.jpg") center/cover no-repeat; }
 .service-card.two { background: url("images/psychic-guidance.jpg") center/cover no-repeat; }
-.service-card.three { background: url("images/numerology.jpg") center/cover no-repeat; }
-.service-card.four { background: url("images/astrology.jpg") center/cover no-repeat; }
+.service-card.three { background: url("images/numerologyBg.jpg") center/cover no-repeat; }
+.service-card.four { background: url("images/AstrologyBg.jpg") center/cover no-repeat; }
 .service-card.five { background: url("images/vastu-shastra.jpeg") center/cover no-repeat; }
 .service-card.six { background: url("images/logo-design.jpg") center/cover no-repeat; }
-.service-card.seven { background: url("images/past-life.jpg") center/cover no-repeat; }
+.service-card.seven { background: url("images/PastLifeBg.jpg") center/cover no-repeat; }
 .service-card.eight { background: url("images/reiki.jpg") center/cover no-repeat; }
 
 .service-card h3 {
@@ -180,7 +190,7 @@ body {
 }
 
 /* Responsive Fix for Smaller Screens */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .hero-container {
     flex-direction: column;
     text-align: center;
