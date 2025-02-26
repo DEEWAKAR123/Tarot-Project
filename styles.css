@@ -104,7 +104,7 @@ body {
 .service-card.one { background: url("images/TarotReading.jpg") center/cover no-repeat; }
 .service-card.two { background: url("images/psychic-guidance.jpg") center/cover no-repeat; }
 .service-card.three { background: url("images/numerologyBg.jpg") center/cover no-repeat; }
-.service-card.four { background: url("images/AstroFinal.jpg") center/cover no-repeat; }
+.service-card.four { background: url("images/astro-final-final.jpg") center/cover no-repeat; }
 .service-card.five { background: url("images/vastu-shastra.jpeg") center/cover no-repeat; }
 .service-card.six { background: url("images/logo-design.jpg") center/cover no-repeat; }
 .service-card.seven { background: url("images/PastLifeBg.jpg") center/cover no-repeat; }
@@ -113,6 +113,7 @@ body {
 .card-2 h3, .card-2 p{ color: gold;}
 .card-7 h3, .card-7 p{ color: black}
 #card-3-para {color: black}
+#card-4-para {color: gold}
 
 .service-card h3 {
   font-family: "Uncial Antiqua", cursive;
