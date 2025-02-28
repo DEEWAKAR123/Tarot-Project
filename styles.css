@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-  background: url("images/bg-image3.png") center/cover no-repeat, #071739;
+  background: url("images/bg-image.jpg") center/cover no-repeat, #071739;
   font-family: "Garamond", serif;
   text-align: center;
   background-size: cover;
@@ -210,11 +210,14 @@ body {
 }
 
 .goodluck-charm {
-  display: block;
-  margin: 1rem auto; /* Centers horizontally */
-  max-width: 2rem; /* Adjust size */
+  position: fixed; 
+  top: 1rem; 
+  right: 1rem; 
+  max-width: 4rem; 
   filter: drop-shadow(0 0 0.6rem rgba(255, 255, 255, 0.3));
+  z-index: 1000; 
 }
+
 
 
 /* Contact Section */
