@@ -15,7 +15,7 @@ body {
 
 .hero-title {
   font-family: "Uncial Antiqua", cursive;
-  font-size: 6rem;
+  font-size: 7rem;
   color: #28293d;
   text-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.7);
   margin-bottom: 0.5rem; 
@@ -35,7 +35,7 @@ body {
 
 /* Logo Styling */
 #logo {
-  max-width: 9rem;
+  max-width: 12rem;
   filter: drop-shadow(0 0 0.6rem rgba(255, 255, 255, 0.3));
 }
 
@@ -203,9 +203,25 @@ body {
     text-align: center;
   }
 
+  .hero-title{
+    font-size: 4rem;
+  }
+
+  .hero-subtitle{
+    font-size: 1.5rem;
+  }
+
+  .hero-text{
+    font-size: 1.2rem;
+  }
+
   .hero-image,
   .hero-content {
     max-width: 100%;
+  }
+
+  #video-section {
+    width: 100%;
   }
 }
 
@@ -223,6 +239,8 @@ body {
 /* Contact Section */
 #contact {
   padding-top: 3.75rem;
+  font-family: 'fira sans';
+  font-size: 1.2rem; 
 }
 
 /* Footer */
