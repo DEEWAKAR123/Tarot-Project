@@ -197,7 +197,6 @@ body {
 }
 
 .testimonial-card {
-  /* background: #D9C4AE */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 1.25rem;
@@ -315,6 +314,14 @@ body {
 
   #video-section {
     width: 100%;
+  }
+
+  .testimonial-card {
+    max-width: 60%;
+  }
+
+  .testimonial-header{
+    font-size: 2rem;
   }
 }
 
