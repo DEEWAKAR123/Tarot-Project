@@ -20,9 +20,9 @@ testimonials.forEach((card) => {
 function moveSlide(direction) {
     index += direction;
     if (index >= totalSlides) {
-        index = totalSlides - 1;
-    } else if (index < 0) {
         index = 0;
+    } else if (index < 0) {
+        index = totalSlides - 1;
     }
 
     track.style.transform = `translateX(${-index * (100 / totalSlides)}%)`;
