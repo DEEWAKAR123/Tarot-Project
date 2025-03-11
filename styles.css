@@ -8,6 +8,46 @@ body {
   background-position: center;
 }
 
+/* Header */
+.header {
+  background-color: #b2b3d2; 
+  color: black;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  flex-wrap: wrap;
+}
+.email {
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  margin-left: 2rem;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+  gap: 1rem;
+}
+.email i {font-size: 1.2rem;}
+.social-icons a {
+  text-decoration: none;
+  color: black;
+  margin-left: 2rem;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+.social-icons a:hover {color: #7a5299;}
+
+@media (max-width: 600px) {
+  .header {justify-content: center;}
+  .email {
+      margin-left: 0; 
+      font-size: 0.9rem;
+      justify-content: center;
+  }
+  .social-icons {display: none;}
+}
+
 /* Hero Section */
 #hero {
   padding: 3rem 1rem;
@@ -327,7 +367,7 @@ body {
 
 .goodluck-charm {
   position: fixed; 
-  top: 1rem; 
+  top: 2.85rem; 
   right: 1rem; 
   max-width: 4rem; 
   filter: drop-shadow(0 0 0.6rem rgba(255, 255, 255, 0.3));
