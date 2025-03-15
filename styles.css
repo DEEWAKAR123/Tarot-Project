@@ -16,18 +16,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: Arial, sans-serif;
+  font-family: 'fira sans';
   flex-wrap: wrap;
 }
 .email {
-  font-size: 1rem;
+  font-size: 0.875rem;
+  font-weight: 450;
   text-decoration: none;
   color: black;
-  font-size: 1rem;
   transition: color 0.3s ease-in-out;
   gap: 1rem;
 }
-.email i {font-size: 1.2rem;}
+.email i {font-size: 1rem;}
 .social-icons a {
   text-decoration: none;
   color: black;
