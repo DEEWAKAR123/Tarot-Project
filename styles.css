@@ -8,6 +8,45 @@ body {
   background-position: center;
 }
 
+/* Header */
+.header {
+  background-color: #D1D2E7; 
+  color: black;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'fira sans';
+  flex-wrap: wrap;
+}
+.email {
+  font-size: 0.875rem;
+  font-weight: 450;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease-in-out;
+  gap: 1rem;
+}
+.email i {font-size: 1rem;}
+.social-icons a {
+  text-decoration: none;
+  color: black;
+  margin-left: 2rem;
+  font-size: 1.25rem;
+  transition: color 0.3s ease-in-out;
+}
+.social-icons a:hover {color: #7a5299;}
+
+@media (max-width: 600px) {
+  .header {justify-content: center;}
+  .social-icons {
+      margin-left: 0; 
+      font-size: 0.9rem;
+      justify-content: center;
+  }
+  .email {display: none;}
+}
+
 /* Hero Section */
 #hero {
   padding: 3rem 1rem;
@@ -76,7 +115,7 @@ body {
   font-size: 3rem;
   color: #28293d;
   text-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.7);
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 /* Service Cards */
