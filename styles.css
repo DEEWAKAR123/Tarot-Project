@@ -404,7 +404,7 @@ body {
 }
 
 .goodluck-charm {
-  position: fixed; 
+  position: absolute; 
   top: 4rem; 
   right: 1rem; 
   max-width: 4rem; 
